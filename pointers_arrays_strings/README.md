@@ -6,3 +6,4 @@
 2. **_strlen** - Returns the length of a string.
 3. **_puts** - Prints a string followed by a new line to stdout.
 4. **I can only go one way** - Prints a string in reverse.
+5. **A good engineer thinks in reverse** - Reverses a string in memory.
