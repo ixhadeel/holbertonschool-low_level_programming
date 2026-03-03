@@ -7,3 +7,4 @@
 3. **_puts** - Prints a string followed by a new line to stdout.
 4. **I can only go one way** - Prints a string in reverse.
 5. **A good engineer thinks in reverse** - Reverses a string in memory.
+6. **Half the lies** - Prints every other character of a string.
