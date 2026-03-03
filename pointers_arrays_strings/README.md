@@ -8,3 +8,4 @@
 4. **I can only go one way** - Prints a string in reverse.
 5. **A good engineer thinks in reverse** - Reverses a string in memory.
 6. **Half the lies** - Prints every other character of a string.
+7. **Winning is only half** - Prints the second half of a string.
