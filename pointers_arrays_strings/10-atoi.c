@@ -20,7 +20,7 @@ int _atoi(char *s)
 			sign *= -1;
 		}
 
-		if (s[i] >= '0' && s[i] <= '1' + 8)
+		if (s[i] >= '0' && s[i] <= '9')
 		{
 			found = 1;
 			res = (res * 10) + (s[i] - '0');
@@ -31,6 +31,9 @@ int _atoi(char *s)
 		}
 		i++;
 	}
+
+	if (found == 0)
+		return (0);
 
 	return (res * sign);
 }
