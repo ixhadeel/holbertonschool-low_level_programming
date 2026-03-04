@@ -9,3 +9,4 @@
 5. **A good engineer thinks in reverse** - Reverses a string in memory.
 6. **Half the lies** - Prints every other character of a string.
 7. **Winning is only half** - Prints the second half of a string.
+8. **Arrays are not pointers** - Prints n elements of an array of integers.
