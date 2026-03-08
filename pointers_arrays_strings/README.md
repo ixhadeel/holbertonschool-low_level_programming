@@ -15,3 +15,4 @@
 0. **memset** - Fills memory with a constant byte.
 1. **memcpy** - Copies memory area.
 2. **strchr** - Locates a character in a string.
+3. **strspn**  - Gets the length of a prefix substring.
