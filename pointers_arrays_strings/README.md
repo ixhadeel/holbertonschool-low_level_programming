@@ -13,3 +13,4 @@
 9. **strcpy** - Copies a string from src to dest.
 10. **Great leaders** - Converts a string to an integer, handling signs.
 **0. memset** - Fills memory with a constant byte.
+**1. memcpy** - Copies memory area.
