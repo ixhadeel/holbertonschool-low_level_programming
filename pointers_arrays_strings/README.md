@@ -18,3 +18,4 @@
 3. **strspn**  - Gets the length of a prefix substring.
 4. **strpbrk** - Searches a string for any of a set of bytes.
 5. **strstr** - Locates a substring.
+6. **Chess is mental torture** - Prints the chessboard.
