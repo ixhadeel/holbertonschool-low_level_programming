@@ -5,4 +5,5 @@
 1. **_print_rev_recursion** - Prints a string in reverse using recursioni.
 2. **_strlen_recursion** - Returns the length of a string using recursion.
 3. **factorial** - Returns the factorial of a given number using recursion.
-4. **_pow_recursion** - Returns the value of x raised to the power of y using recursion.
+4. **_pow_recursion** - Returns the value of x raised to the power of y using recursioni.
+5. **_sqrt_recursion** - Returns the natural square root of a number using recursion.
