@@ -19,3 +19,4 @@
 4. **strpbrk** - Searches a string for any of a set of bytes.
 5. **strstr** - Locates a substring.
 6. **Chess is mental torture** - Prints the chessboard.
+7. **The line of life** - Prints the sum of the two diagonals of a square matrix.
