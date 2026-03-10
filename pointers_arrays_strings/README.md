@@ -16,3 +16,4 @@
 1. **memcpy** - Copies memory area.
 2. **strchr** - Locates a character in a string.
 3. **strspn**  - Gets the length of a prefix substring.
+4. **strpbrk** - Searches a string for any of a set of bytes.
