@@ -16,9 +16,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	if (!ht || !key || !*key || !value)
 		return (0);
+
 	v_copy = strdup(value);
 	if (!v_copy)
 		return (0);
+
 	idx = key_index((const unsigned char *)key, ht->size);
 	tmp = ht->array[idx];
 	while (tmp)
@@ -31,6 +33,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 		tmp = tmp->next;
 	}
+
 	new = malloc(sizeof(hash_node_t));
 	if (!new)
 	{
@@ -40,11 +43,13 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new->key = strdup(key);
 	if (!new->key)
 	{
-		free(new), free(v_copy);
+		free(new);
+		free(v_copy);
 		return (0);
 	}
 	new->value = v_copy;
 	new->next = ht->array[idx];
 	ht->array[idx] = new;
+
 	return (1);
 }
